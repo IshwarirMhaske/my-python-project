@@ -84,7 +84,7 @@ run = st.button("🚀 Run Multi-Agent System")
 # ---------- EXECUTION ----------
 if run and task.strip():
 
-    # 🧠 PLANNER
+    # PLANNER
     with st.spinner("🧠 Planner thinking..."):
         time.sleep(1)
         plan = planner_agent(task)
@@ -97,7 +97,7 @@ if run and task.strip():
     </div>
     """, unsafe_allow_html=True)
 
-    # 🔍 RESEARCHER
+    # RESEARCHER
     with st.spinner("🔍 Researcher analyzing..."):
         time.sleep(1)
         research = researcher_agent(plan)
@@ -110,7 +110,7 @@ if run and task.strip():
     </div>
     """, unsafe_allow_html=True)
 
-    # 💻 CODER
+    # CODER
     with st.spinner("💻 Coder building solution..."):
         time.sleep(1)
         solution = coder_agent(research)
@@ -124,7 +124,7 @@ if run and task.strip():
 
     st.code(solution, language="python")
 
-    # 🧪 REVIEWER
+    # REVIEWER
     with st.spinner("🧪 Reviewer reviewing..."):
         time.sleep(1)
         review = reviewer_agent(solution)

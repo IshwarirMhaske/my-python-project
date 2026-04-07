@@ -1,24 +1,60 @@
-\# Multi Agent AI System
+\# Multi-Agent AI System
 
 
 
-This project is a multi-agent AI system built using Python.
+\## 📌 Overview
+
+This project is a Multi-Agent AI System built using Python. It demonstrates how multiple agents can work together to perform tasks efficiently.
 
 
 
-\## Features
+\## 🚀 Features
 
-\- Multiple agents
+\- Modular architecture
 
-\- Modular structure
+\- Multiple intelligent agents
+
+\- Scalable design
 
 \- Docker support
 
 
 
-\## How to run
+\## 🛠️ Technologies Used
 
-pip install -r requirements.txt
+\- Python
 
-python app.py
+\- Docker
+
+\- Git \& GitHub
+
+
+
+\## ▶️ How to Run
+
+1\. Install dependencies:
+
+&#x20;  pip install -r requirements.txt
+
+
+
+2\. Run the application:
+
+&#x20;  python app.py
+
+
+
+\## 📂 Project Structure
+
+\- agents/ → agent logic
+
+\- core/ → main system logic
+
+\- app.py → entry point
+
+
+
+\## 👩‍💻 Author
+
+Ishwari Mhaske
 

@@ -1,60 +1,102 @@
-\# Multi-Agent AI System
+# 🤖 AutoTaskerAI – Multi-Agent AI System
 
+## 📌 Overview
 
+AutoTaskerAI is an AutoGPT-style Multi-Agent AI system built using Python and powered by Gemini.
+Instead of generating a single generic response, this system simulates a real software team where multiple AI agents collaborate to solve a given task.
 
-\## 📌 Overview
+From a single user prompt like:
+👉 "Build a chatbot"
+👉 "Create a sentiment analysis system"
 
-This project is a Multi-Agent AI System built using Python. It demonstrates how multiple agents can work together to perform tasks efficiently.
+The system intelligently breaks down, analyzes, implements, and evaluates the solution using specialized agents.
 
+---
 
+## 🎥 Demo Video
 
-\## 🚀 Features
+👉 [Watch Demo](https://1drv.ms/v/c/f27581e6ec46dbc4/IQDeW-NwW_3jTr5TWUv-MXQdAUB18yfGdIRCLVHolvj2Uz8?e=eSlCUw)
 
-\- Modular architecture
+---
 
-\- Multiple intelligent agents
+## 🚀 Features
 
-\- Scalable design
+* Multi-agent collaboration system
+* AutoGPT-style task execution
+* Modular and scalable architecture
+* Intelligent task decomposition
+* Real-time research and code generation
+* Evaluation with quality and confidence scores
+* Docker support for easy deployment
 
-\- Docker support
+---
 
+## 🧠 System Architecture (Agents)
 
+### 🧠 Planner Agent
 
-\## 🛠️ Technologies Used
+Understands the user input and breaks it into structured, actionable steps.
 
-\- Python
+### 🔍 Researcher Agent
 
-\- Docker
+Analyzes each step and selects the best algorithms, tools, and approaches.
 
-\- Git \& GitHub
+### 💻 Coder Agent
 
+Generates clean, readable, and implementation-ready code based on research.
 
+### 🧪 Reviewer Agent
 
-\## ▶️ How to Run
+Evaluates the output and provides:
 
-1\. Install dependencies:
+* ✅ Confidence Score
+* ✅ Quality Score
+* ✅ Readiness Assessment
 
-&#x20;  pip install -r requirements.txt
+---
 
+## 🛠️ Technologies Used
 
+* Python
+* Gemini API
+* Docker
+* Git & GitHub
 
-2\. Run the application:
+---
 
-&#x20;  python app.py
+## ▶️ How to Run
 
+1. Install dependencies:
 
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-\## 📂 Project Structure
+2. Run the application:
 
-\- agents/ → agent logic
+   ```bash
+   python app.py
+   ```
 
-\- core/ → main system logic
+---
 
-\- app.py → entry point
+## 📂 Project Structure
 
+* agents/ → Individual AI agents (Planner, Researcher, Coder, Reviewer)
+* core/ → Main orchestration logic
+* app.py → Entry point
 
+---
 
-\## 👩‍💻 Author
+## 🌐 Future Improvements
+
+* Integrate advanced ML models for improved decision-making
+* Connect with real-world organizational datasets
+* Enhance agent collaboration with memory and context awareness
+* Deploy as a scalable web-based application
+
+---
+
+## 👩‍💻 Author
 
 Ishwari Mhaske
-
